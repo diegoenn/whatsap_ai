@@ -2,7 +2,7 @@
     "name": "yesser md",
     "description": "I am yesser md Whatsapp MultiDevice Whatsapp Bot built in NodeJs to make experience better",
     "website": "https://telegra.ph/file/37882de26f9ffc60043ef.jpg",
-    "repository": "",
+    "repository": "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",
     "logo": "https://telegra.ph/file/37882de26f9ffc60043ef.jpg",
     "keywords": ["yesser md", "yesser md"],
     "success_url": "/",
