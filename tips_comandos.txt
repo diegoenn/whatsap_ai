@@ -29,7 +29,7 @@
 # muestra todas las branch que se tienen
 # git branch
 # se configura el branch master por primera vez
-# git push origin main
+# git push origin nombre_branch
 # crear una nueva branch en github
 # git branch nombre_branch
 # para cambiar de branch, a la branch diego
