@@ -1,12 +1,36 @@
 # comandos para ser usados
+#
+# xxxxxxxxxxxxxxx
+# desde una terminal abre visual studio code con el contenido de la carpeta
+# code .
 #xxxxxxxxxxxxxxxx
 #
 # comandos git
 #
 #xxxxxxxxxxxxxxxxxxxxxxx
+# configura nombre y correo de la cuenta git
+# git config --global user.name "Diego"
+# git config --global user.email "diegoenn@gmail.com"
+# inicializa una carpeta de un repositorio git
 # git init
+# agrega un repositorio remoto de github a la consola local, debe hacerse dentro de la carpeta local
 # git remote add origin https://github.com/diegoenn/whatsap_ai.git 
+# muestra los repositorios remotos
+# git remote -v
+# muestra el estado de los archivos modificados y los no trakeados
+# git status
+#agrega archivos que no estan trackeados a que si queden trakeados
 # git add .
+# agrega un commit de los archivos a cargar con un nombre que los distingue
 # git commit -m "se actulizo los archivos xxxxx"
-# git push
+# se valida el estado de nuestros commits
+# git log
+# muestra todas las branch que se tienen
 # git branch
+# se configura el branch master por primera vez
+# git push origin main
+# crear una nueva branch en github
+# git branch nombre_branch
+# para cambiar de branch, a la branch diego
+# git checkout diego
+
