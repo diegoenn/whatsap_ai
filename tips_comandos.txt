@@ -8,6 +8,7 @@
 # comandos git
 #
 #xxxxxxxxxxxxxxxxxxxxxxx
+# validar que el pc si tenga instalado git, si no lo tiene instalarlo en windows o mac os
 # configura nombre y correo de la cuenta git
 # git config --global user.name "Diego"
 # git config --global user.email "diegoenn@gmail.com"
@@ -32,5 +33,5 @@
 # crear una nueva branch en github
 # git branch nombre_branch
 # para cambiar de branch, a la branch diego
-# git checkout diego
+# git checkout nombre_branch
 
