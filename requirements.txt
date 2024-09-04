@@ -1,3 +1,8 @@
+# estos son los requerimientos para que la aplicacion funcione
+# python3 -m venv venv
+# source venv/bin/activate
+# pip list
+# pip install -r requirements.txt
 flask
 python-dotenv
 openai

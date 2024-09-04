@@ -1,0 +1,12 @@
+# comandos para ser usados
+#xxxxxxxxxxxxxxxx
+#
+# comandos git
+#
+#xxxxxxxxxxxxxxxxxxxxxxx
+# git init
+# git remote add origin https://github.com/diegoenn/whatsap_ai.git 
+# git add .
+# git commit -m "se actulizo los archivos xxxxx"
+# git push
+# git branch
