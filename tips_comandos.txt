@@ -3,16 +3,24 @@
 # xxxxxxxxxxxxxxx
 # desde una terminal abre visual studio code con el contenido de la carpeta
 # code .
-#xxxxxxxxxxxxxxxx
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #
-# comandos git
+# comandos git (clone, add, commit, push y pull)
 #
-#xxxxxxxxxxxxxxxxxxxxxxx
+# clone: download a copy from reposity, one time use
+# add: add a file to a commit, one time per commit
+# commit: stage changes with a message, creates a snapshot/version
+# push: copy a commit to a repository
+# pull: pull down commits from repository
+#
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 # configura nombre y correo de la cuenta git
 # git config --global user.name "Diego"
 # git config --global user.email "diegoenn@gmail.com"
 # inicializa una carpeta de un repositorio git
 # git init
+# descarga una copia de un repositorio actual en github
+# git clone
 # agrega un repositorio remoto de github a la consola local, debe hacerse dentro de la carpeta local
 # git remote add origin https://github.com/diegoenn/whatsap_ai.git 
 # muestra los repositorios remotos
