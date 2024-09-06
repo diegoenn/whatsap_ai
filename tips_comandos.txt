@@ -14,6 +14,11 @@
 # pull: pull down commits from repository
 #
 #xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# ngrok. primero se debe descargar el agente desde la pagina de ngrok
+# y luego instalar el token con el comando que aparece en la pagina
+# iniciar ngrok agente
+# lanzar o iniciar el tunel usando el dominio estatico
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 # configura nombre y correo de la cuenta git
 # git config --global user.name "Diego"
 # git config --global user.email "diegoenn@gmail.com"
