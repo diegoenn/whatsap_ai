@@ -47,4 +47,5 @@
 # git branch nombre_branch
 # para cambiar de branch, a la branch diego
 # git checkout nombre_branch
-
+# para halar el contenido desde el remoto hacia el local sin hacer un rebase o perdida del trabajo local
+# git pull --no-rebase https://github.com/diegoenn/whatsap_ai.git diego
