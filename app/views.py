@@ -13,6 +13,7 @@ webhook_blueprint = Blueprint("webhook", __name__)
 
 
 def handle_message():
+    logging.info("Log1")
     """
     Handle incoming webhook events from the WhatsApp API.
 
@@ -56,6 +57,7 @@ def handle_message():
 
 # Required webhook verifictaion for WhatsApp
 def verify():
+    logging.info("Log2")
     # Parse params from the webhook verification request
     mode = request.args.get("hub.mode")
     token = request.args.get("hub.verify_token")
@@ -79,11 +81,13 @@ def verify():
 
 @webhook_blueprint.route("/webhook", methods=["GET"])
 def webhook_get():
+    logging.info("Log3")
     return verify()
 
 @webhook_blueprint.route("/webhook", methods=["POST"])
 @signature_required
 def webhook_post():
+    logging.info("Log4")
     return handle_message()
 
 
