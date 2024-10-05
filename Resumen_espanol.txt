@@ -1,3 +1,73 @@
+# ##########################################################################################################
+# whatsapp_ai
+Este es un proyecto basado en un tutorial de internet
+en el cual se pueden enviar mensajes de whatsapp a trave del API de whatsapp e interactuar con openai
+
+el detalle de cada archivo se encuentra detallado en el archivo readme.md que esta en la carpeta app
+
+link video youtube: https://www.youtube.com/watch?v=3YPeh-3AFmM
+
+# ############################################################################
+### corriendo la aplicacion
+comando para correr la aplicacion or ir a la terminal y dar click en run python file
+`python3 run.py`
+
+abrir terminal y correr ngrok con el comando
+`ngrok http --domain=correctly-communal-pigeon.ngrok-free.app 8000`
+
+puedes empezar a chatear con el numero de whatsapp y deberia responderte con el contenido de openai basado en la configuracion de un asistente ya configurado en open ai
+puedes ver todo el log en la terminal de la consola
+
+# ############################################################################
+### important files in this project
+
+- .env - contain information of whatsapp and open AI 
+- run.py - main file, this is the file to run de application para habilitar webhooks y lanzar triggers cuando se reciben mensajes en el numero de whatsapp business
+- requirements.txt - list of packages to be installed in the environment
+- readme.md - instructions, directions and guidelines to implement this project
+- readme-md - app - contain the information of each files and how the application works
+- whatsapp_utils.py - utils -contain all the functions to receive and send messages to whatsapp even the integration with openai
+- whatsapp_quickstart.py - start - contain functions to test sending messages to a recipient directly, just to test and running step by step on interactive view
+- views.py - app - contain the configuration of the wehbhook para escuchar cuando un mensaje se recibe en la integracion con whatsapp
+- security.py - decorators - contain implementation of security based on meta recommendations
+- config.py - app - contain informacion about all configuration variables on the app
+- .gitignore - contain all the files that dont be moved to git in the cloud
+- __init__.py - app - initialize de flask application 
+
+
+# ####################################################################
+## crear un entorno virtual
+
+- comando para crear un entorno virtual dentro de la carpeta del proyecto
+`python3 -m venv venv`
+o si se quiere configurar con una version especifica de python en el entorno virtual usar el siguiente comando
+`py -3.11 -m venv venv`
+`py -3.12 -m venv venv`
+
+- comando para activar un entorno virtual dentro de la carpeta del proyecto
+`source venv/bin/activate` en mac or `.\venv\Scripts\activate` en windows
+- comando para desactivar un env virtual
+`deactivate`
+- comando para listar librerias instaladas en python dentro del entorno
+`pip list` en windows or `pip3 list` en mac
+- como saber en que ruta o entorno virtual estoy?
+mirando la ruta y el nombre del entorno que aparece en parentesis
+
+# ############################################################################
+## instalando paquetes
+
+### instalando la aplicacion desde requirements.txt
+- par instalar todas los paquetes requeridos desde el archivo requirements.txt lanzar el siguiente comando
+para ello se debe tener el listado de paquetes escrito en ese archivo
+`pip install -r requirements.txt`
+
+# ############################################################################
+
+- link de documentacion oficial de meta
+https://developers.facebook.com/blog/post/2022/10/24/sending-messages-with-whatsapp-in-your-python-applications/
+
+
+# ##########################################################################################################
 # comandos para ser usados 6 sept 2024
 #
 # xxxxxxxxxxxxxxx
@@ -49,16 +119,6 @@
 # git checkout nombre_branch
 # para halar el contenido desde el remoto hacia el local sin hacer un rebase o perdida del trabajo local
 # git pull --no-rebase https://github.com/diegoenn/whatsap_ai.git diego
-
-###########################################################################################################
-# whatsapp_ai
-Este es un proyecto basado en un tutorial de internet
-en el cual se pueden enviar mensajes de whatsapp a trave del API de whatsapp e interactuar con openai
-
-- link de documentacion oficial de meta
-https://developers.facebook.com/blog/post/2022/10/24/sending-messages-with-whatsapp-in-your-python-applications/
-- para iniciar la aplicacion se debe correr este comando en la terminal
-`flask run`
 
 # ####################################################################
 
@@ -137,9 +197,32 @@ mirando la ruta y el nombre del entorno que aparece en parentesis
 para ello se debe tener el listado de paquetes escrito en ese archivo
 `pip install -r requirements.txt`
 
+# ############################################################################
 ### corriendo la aplicacion
-comando para correr flask
-`flask run`
+comando para correr la aplicacion or ir a la terminal y dar click en run python file
+`python3 run.py`
+
+abrir terminal y correr ngrok con el comando
+`ngrok http --domain=correctly-communal-pigeon.ngrok-free.app 8000`
+
+puedes empezar a chatear con el numero de whatsapp y deberia responderte con el contenido de openai basado en la configuracion de un asistente ya configurado en open ai
+puedes ver todo el log en la terminal de la consola
+
+link video youtube: https://www.youtube.com/watch?v=3YPeh-3AFmM
+
+# ############################################################################
+### important files in this project
+
+- .env - contain information of whatsapp and open AI 
+- run.py - main file, this is the file to run de application para habilitar webhooks y lanzar triggers cuando se reciben mensajes en el numero de whatsapp business
+- requirements.txt - list of packages to be installed in the environment
+- readme.md - instructions and directions of this project
+- whatsapp_utils.py - utils -contain all the functions to receive and send messages to whatsapp even the integration with openai
+- whatsapp_quickstart.py - start - contain functions to test sending messages to a recipient directly, just to test and running step by step on interactive view
+- views.py - app - contain the configuration of the wehbhook para escuchar cuando un mensaje se recibe en la integracion con whatsapp
+- security.py - decorators - contain implementation of security based on meta recommendations
+- config.py - app - contain informacion about all configuration variables on the app
+- .gitignore - contain all the files that dont be moved to git in the cloud
 
 # ############################################################################
 ## instalacion de base de datos
