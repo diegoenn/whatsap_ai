@@ -24,7 +24,7 @@ def get_text_message_input(recipient, text):
         }
     )
 
-
+# this function is only for testing purpose to return the same incomming message with Uppercase text (testing purpose)
 # def generate_response(response):
 #     # Return text in uppercase
 #     return response.upper()
@@ -83,7 +83,8 @@ def process_whatsapp_message(body):
     message_body = message["text"]["body"]
 
     # TODO: implement custom function here
-    response = generate_response(message_body)
+    # this line is commented because is only used for testing purpose with function generate_response uppercase
+    # response = generate_response(message_body)
 
     # OpenAI Integration
     response = generate_response(message_body, wa_id, name)

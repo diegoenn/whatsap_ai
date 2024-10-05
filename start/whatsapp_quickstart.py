@@ -39,7 +39,7 @@ def send_whatsapp_message():
     return response
 
 
-# Call the function
+# Call the function - send the template message "hello world" to the recipient and print the result and status
 response = send_whatsapp_message()
 print(response.status_code)
 print(response.json())
@@ -84,7 +84,7 @@ def send_message(data):
 
 
 data = get_text_message_input(
-    recipient=RECIPIENT_WAID, text="Hello, this is a test message."
+    recipient=RECIPIENT_WAID, text="Hello, this is a test message, customized by Diego Narvaez, after send a template message."
 )
 
 response = send_message(data)
